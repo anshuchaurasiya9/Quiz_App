@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "277907562112",
+    "project_id": "softonic-quiz",
+    "storage_bucket": "softonic-quiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277907562112:android:0309aafed25cbc84fc5065",
+        "android_client_info": {
+          "package_name": "com.example.softonicquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277907562112-e3glh9aqt274ipe77asping71pofcmck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8kAovTlMGKUbG0xWcx-5uRvnQ4tp8UYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277907562112-e3glh9aqt274ipe77asping71pofcmck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

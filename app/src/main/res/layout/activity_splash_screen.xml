@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".splash_screen">
+
+
+
+    <ImageView
+        android:id="@+id/a"
+        android:layout_width="363dp"
+        android:layout_height="152dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:padding="10dp"
+        android:src="@mipmap/quiz"
+        android:textSize="150sp"
+        android:contentDescription="@string/imgdiscription" />
+
+
+    <TextView
+        android:id="@+id/tagLine"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/aclonica"
+        android:padding="10dp"
+        android:text="@string/quiz"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+
+
+    <ProgressBar
+        android:id="@+id/Bar"
+        style="?android:attr/indeterminateProgressStyle"
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:visibility="invisible" />
+
+
+</LinearLayout>
